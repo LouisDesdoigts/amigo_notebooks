@@ -15,6 +15,6 @@ Here we provide a set of examples of recovering high-contrast companions to get 
 
 ### Developer Notebooks
 
-1. [Model Calibration](): (under development) This notebook is here simply for posterity, showing how the calibration process of Amigo is done, as well as how the validation of the models are done.
+1. [Model Calibration]: (under development) This notebook is here simply for posterity, showing how the calibration process of Amigo is done, as well as how the validation of the models are done.
 2. [Visibility Basis](https://github.com/LouisDesdoigts/amigo_notebooks/blob/main/vis_basis.ipynb): This notebook shows how Amigo's unique latent visibility basis is constructed. 
 3. [Jacobian Caching](https://github.com/LouisDesdoigts/amigo_notebooks/blob/main/jac_caching.ipynb): This notebook pre-calculates and caches the Jacobian matrices that are used in the fitting process, enabling an auto-normalisation of the gradients for the optimiser.
