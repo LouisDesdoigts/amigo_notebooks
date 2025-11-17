@@ -2,6 +2,8 @@
 
 Welcome to the [Amigo](https://github.com/LouisDesdoigts/amigo) example notebooks repository! Here, you'll find a collection of Jupyter notebooks that demonstrate how to use Amigo for various tasks related to astronomical imaging and analysis. Amigo is designed to be very user-friendly, but also enables advanced users to customise and extend its functionality almost without limit. 
 
+Note that you will need the calibration files in order to run these notebooks. You can find them in the [Amigo Calibration Repository](https://github.com/LouisDesdoigts/amigo_files). Please download the calibration files that correspond to your version of Amigo.
+
 Here we provide a set of examples of recovering high-contrast companions to get you started. The workflow is broken down into a few different steps, each of which is covered in a separate notebook:
 
 ### User Workflow Notebooks
@@ -13,6 +15,6 @@ Here we provide a set of examples of recovering high-contrast companions to get 
 
 ### Developer Notebooks
 
-1. [Model Calibration](): (under development) This notebook is here simply for posterity, showing how the calibration process of Amigo is done, as well as how the validation of the models are done.
+1. [Model Calibration]: (under development) This notebook is here simply for posterity, showing how the calibration process of Amigo is done, as well as how the validation of the models are done.
 2. [Visibility Basis](https://github.com/LouisDesdoigts/amigo_notebooks/blob/main/vis_basis.ipynb): This notebook shows how Amigo's unique latent visibility basis is constructed. 
 3. [Jacobian Caching](https://github.com/LouisDesdoigts/amigo_notebooks/blob/main/jac_caching.ipynb): This notebook pre-calculates and caches the Jacobian matrices that are used in the fitting process, enabling an auto-normalisation of the gradients for the optimiser.
