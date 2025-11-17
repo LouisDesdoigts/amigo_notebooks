@@ -2,6 +2,8 @@
 
 Welcome to the [Amigo](https://github.com/LouisDesdoigts/amigo) example notebooks repository! Here, you'll find a collection of Jupyter notebooks that demonstrate how to use Amigo for various tasks related to astronomical imaging and analysis. Amigo is designed to be very user-friendly, but also enables advanced users to customise and extend its functionality almost without limit. 
 
+Note that you will need the calibration files in order to run these notebooks. You can find them in the [Amigo Calibration Repository](https://github.com/LouisDesdoigts/amigo_files). Please download the calibration files that correspond to your version of Amigo.
+
 Here we provide a set of examples of recovering high-contrast companions to get you started. The workflow is broken down into a few different steps, each of which is covered in a separate notebook:
 
 ### User Workflow Notebooks
